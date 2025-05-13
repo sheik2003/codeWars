@@ -13,7 +13,7 @@ public class Kata {
             int convertedNumber = Integer.parseInt(numbersParsed[i]);
             if (convertedNumber < min){
                 min = convertedNumber;
-            } else if (convertedNumber > max) {
+            } if (convertedNumber > max) {
                 max = convertedNumber;
             }
 
